@@ -1,7 +1,28 @@
 import requests, sys, os
 
-info = input("[+] URL do alvo (incluindo o local do arquivo vulnerável, ex. xmlrpc.php): ")
-user_agent = input("[+] Digite um User-Agent válido (deixe em branco para usar o padrão do exploit): ")
+print("""
+
+                                                                                     _..._                          .-'''-.        .-'''-.          
+                                 .---.                                            .-'_..._''.                      '   _    \     '   _    \  .---. 
+                  __  __   ___   |   |                _________   _...._        .' .'      '.\                   /   /` '.   \  /   /` '.   \ |   | 
+                 |  |/  `.'   `. |   |                \        |.'      '-.    / .'                             .   |     \  ' .   |     \  ' |   | 
+                 |   .-.  .-.   '|   |          .-,.--.\        .'```'.    '. . '                            .| |   '      |  '|   '      |  '|   | 
+   ____     _____|  |  |  |  |  ||   |          |  .-. |\      |       \     \| |                          .' |_\    \     / / \    \     / / |   | 
+  `.   \  .'    /|  |  |  |  |  ||   |          | |  | | |     |        |    || |                        .'     |`.   ` ..' /   `.   ` ..' /  |   | 
+    `.  `'    .' |  |  |  |  |  ||   |          | |  | | |      \      /    . . '                       '--.  .-'   '-...-'`       '-...-'`   |   | 
+      '.    .'   |  |  |  |  |  ||   |          | |  '-  |     |\`'-.-'   .'   \ '.          .             |  |                               |   | 
+      .'     `.  |__|  |__|  |__||   |          | |      |     | '-....-'`      '. `._____.-'/             |  |                               |   | 
+    .'  .'`.   `.                '---'          | |     .'     '.                 `-.______ /              |  '.'                             '---' 
+  .'   /    `.   `.                             |_|   '-----------'                        `               |   /                                    
+ '----'       '----'                                                                                       `'-'                                     
+
+\n
+Created by henriquedev (henriquedev.com) @ 2023
+""")
+
+
+info = input("[+] URL do alvo (incluindo o local do arquivo, ex. xmlrpc.php): ")
+user_agent = input("[+] Digite um User-Agent válido (deixe em branco para usar o padrão da tool): ")
 users = input("[+] Informe o path da list de usuários a serem testados: ")
 passwords = input("[+] Informe o path da lista de senhas a serem testadas: ")
 
