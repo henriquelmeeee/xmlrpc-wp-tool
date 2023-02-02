@@ -1,2 +1,2 @@
 # xmlrpc-wp-xpl
-Brute force attack exploit for XMLRPC
+Brute force attack tool for XMLRPC
