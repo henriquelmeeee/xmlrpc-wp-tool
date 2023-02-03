@@ -61,8 +61,8 @@ else:
             <methodCall> 
             <methodName>wp.getUsersBlogs</methodName> 
             <params> 
-            <param><value>\{user}</value></param> 
-            <param><value>\{list_passwords[n]}</value></param> 
+            <param><value>{user}</value></param> 
+            <param><value>{list_passwords[n]}</value></param> 
             </params> 
             </methodCall>
         """
